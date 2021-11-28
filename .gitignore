@@ -1,0 +1,36 @@
+# Application
+web/app/plugins/*
+!web/app/plugins/.gitkeep
+!web/app/plugins/movie-db-scrapper
+web/app/mu-plugins/*/
+web/app/upgrade
+web/app/uploads/*
+!web/app/uploads/.gitkeep
+
+# Theme
+web/app/themes/understrap-child/.sass-cache
+web/app/themes/understrap-child/bower_components
+web/app/themes/understrap-child/node_modules
+web/app/themes/understrap-child/understrap.zip
+web/app/themes/understrap-child/dist
+web/app/themes/understrap-child/dist-product
+web/app/themes/understrap-child/npm-debug.log
+web/app/themes/understrap-child/vendor/
+
+# WordPress
+web/wp
+web/.htaccess
+
+# Logs
+*.log
+
+# Dotenv
+.env
+.env.*
+!.env.example
+
+# Composer
+/vendor
+
+# WP-CLI
+wp-cli.local.yml
