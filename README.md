@@ -64,6 +64,7 @@ The detail view should show:</p>
 
 3. Update environment variables in the .env file:
   Rename the .env.example to .env and set the variables:
+- `API_KEY` - The Movie DB API key, check the .env example on the shared folder
 - `DB_NAME` - Database name
 - `DB_USER` - Database user
 - `DB_PASSWORD` - Database password
